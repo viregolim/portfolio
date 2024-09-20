@@ -1,0 +1,165 @@
+body {
+    background-color: #241E33;
+}
+
+@font-face {
+    font-family: Nexa;
+    src: url('font/Nexa-Heavy.ttf') format('truetype'),
+    url('font/Nexa-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url('font/Nexa-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cabecalho{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Nexa;
+    color: #F3F0F5;
+    font-size: 30px;
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+}
+
+.sobremim-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img-profile-content{
+    border-radius: 20%;
+    width: 250px;
+    height: 250px;
+}
+
+
+.sobremim-div{
+    padding: 0px;
+}
+
+.texto-sobremim-title{
+    color: #EE7252;
+    font-size: 30px;
+    text-align: left;
+    font-family: Nexa;
+}
+
+.texto-sobremim-txt{
+    color: #F3F0F5;
+    font-size: 18px;
+    text-align: left;
+    font-family: NexaLight;
+    padding: 0px;
+}
+
+.link1{
+    text-decoration: none;
+    color: #F3F0F5;
+}
+.link2{
+    text-decoration: none;
+    color: #F3F0F5;
+}
+
+.galeria-content{
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #EE7252;
+}
+
+.galeria-txt{
+    font-family: Nexa;
+    font-size: 30px;
+    color: #241E33;
+    padding: 0px;
+}
+
+.carrossel-content{
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #241E33;
+}
+
+.carrossel-txt{
+    font-family: NexaLight;
+    font-size: 30px;
+    color: #EE7252;
+    text-align: center;
+    padding: 0px;
+}
+
+.img-skills{
+    width: 700px;
+    padding: 0px;
+}
+
+.img-skills-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.upegiga-content{
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #241E33;
+    margin-top: 100px;
+}
+
+.img-upegiga{
+    width: 1600px;
+    padding: 0px;
+
+}
+
+.img-upegiga-content{
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
